@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         'moles': ['Moles', 'sans-serif'],
         'monte': ['MonteCarlo'],
+        'baskervville': ['Baskervville', 'serif'],
       },
     },
   },

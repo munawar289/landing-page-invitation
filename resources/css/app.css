@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
     --color-main: #4D0A13;
     --color-light: #ffffff;
     --color-primary: #641823;
+    --color-secondary: #A9954F;
 }
 
 @font-face {
@@ -16,6 +18,11 @@
 }
 @font-face {
     font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Baskervville", serif;
     font-weight: 400;
     font-style: normal;
 }
