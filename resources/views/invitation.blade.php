@@ -553,35 +553,35 @@
                     </div>
                 </div>
             </section>
-            <section class="moveable-section">
+            <section class="moveable-section bg-[var(--color-main)] overflow-hidden">
                 <!-- Vanue & Event section -->
-                <section class="venue-section ">
-                    <div class="ornaments-wrapper">
-                        <div class="sky">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid">
+                <section class="venue-section relative py-12">
+                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none">
+                        <div class="sky absolute top-0 left-1/2 w-[180%] transform -translate-x-1/2 -translate-y-[12%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-1">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                        <div class="orn-1 absolute top-0 left-0 w-1/2 -translate-x-[55%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-2">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                        <div class="orn-2 absolute top-0 right-0 w-1/2 translate-x-[55%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                             </div>
                         </div>
                     </div>
-                    <div class="venue-wrapper">
-                        <div class="container position-relative">
-                            <div class="row justify-content-center">
-                                <div class="col-md-8 col-lg-12 position-relative">
-                                    <div class="venue-description">
-                                        <div class="title-section has-animate" data-anim="zoom-out" data-load-animation="true">
-                                            <h2>Lokasi</h2>
+                    <div class="venue-wrapper relative">
+                        <div class="container pl-[1.8rem] pr-[1.8rem] relative">
+                            <div class="flex justify-center">
+                                <div class="relative">
+                                    <div class="venue-description relative text-center p-7 mb-[3rem] bg-[--color-main] rounded-2xl opacity-70">
+                                        <div class="title-section z-30 relative w-full text-center mb-[1.25rem] has-animate" data-anim="zoom-out" data-load-animation="true">
+                                            <h2 class="block text-[var(--color-light)] w-full mb-0 font-medium text-[38px]">Lokasi</h2>
                                         </div>
-                                        <div class="position-relative has-animate" data-anim="fade-up" data-load-animation="true">
+                                        <div class="relative text-[var(--color-light)] has-animate" data-anim="fade-up" data-load-animation="true">
                                             <p>Dengan penuh rasa hormat kami mengharapkan kehadiran Bapak/Ibu/Saudara sekalian pada Acara Pernikahan kami yang akan kami laksanakan pada :</p>
                                             <h5><strong>Minggu, 5 Mei 2025</strong></h5>
                                             <p>Besar harapan kami akan kehadiran Bapak/Ibu/Saudara sekalian tentunya dengan memperhatikan anjuran dari Pemerintah. Untuk itu kami memberlakukan protokol kesehatan sebagaimana instruksi dibawah ini</p>
@@ -590,111 +590,110 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="venue-content">
-                            <div class="container">
-                                <div class="row justify-content-center row-venue">
-                                    <div class="col-md-6 col-lg-12 position-relative">
-                                        <div class="card color-primary">
-                                            <div class="rebung-horizontal">
-                                                <div class="image-element">
+                        <div class="venue-content relative">
+                            <div class="container px-[1.8rem]">
+                                <div class="flex flex-col justify-center row-venue">
+                                    <div class="relative w-full flex-auto">
+                                        <div class="card rounded-2xl bg-[var(--color-main)] text-[var(--color-light)] border-none text-left overflow-hidden">
+                                            <div class="rebung-horizontal relative -ml-[0.5rem] w-auto h-full">
+                                                <div class="image-element relative w-[160%] h-auto">
                                                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctaG9yaXpvbnRhbC5wbmc.webp" alt="rebung-horizontal">
                                                 </div>
                                             </div>
-                                            <div class="ornaments-wrapper">
-                                                <div class="orn-10">
-                                                    <div class="image-element has-animate" data-anim="fade-up" data-load-animation="true">
-                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                            <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden rounded-2xl">
+                                                <div class="orn-10 absolute bottom-0 left-0 w-[80%] transform -translate-x-[45%] translate-y-[80%]">
+                                                    <div class="image-element relative w-full h-auto has-animate" data-anim="fade-up" data-load-animation="true">
+                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                     </div>
                                                 </div>
-                                                <div class="orn-11">
-                                                    <div class="image-element has-animate" data-anim="fade-up" data-load-animation="true">
-                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                                <div class="orn-11 absolute bottom-0 right-0 w-[80%] transform translate-x-[20%] translate-y-[85%]">
+                                                    <div class="image-element relative w-full h-auto has-animate" data-anim="fade-up" data-load-animation="true">
+                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="card-body">
-                                                <div class="event-name">
-                                                    <div class="ornaments-wrapper has-animate" data-anim="zoom-out" data-load-animation="true">
-                                                        <div class="sky">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid">
+                                            <div class="card-body p-0 flex-1">
+                                                <div class="event-name relative w-full mb-4 rounded-b-lg text-center overflow-hidden">
+                                                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none has-animate" data-anim="zoom-out" data-load-animation="true">
+                                                        <div class="sky absolute top-0 left-1/2 w-[180%] -translate-x-1/2 -translate-y-12">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="ampera">
-                                                            <div class="image-element has-animate" data-anim="slide-up" data-load-animation="true">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid">
+                                                        <div class="ampera absolute bottom-0 left-1/2 w-[150%] -translate-x-[60%]">
+                                                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-up" data-load-animation="true">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-3">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-3 absolute bottom-0 left-0 w-1/2 -translate-x-[55%] translate-y-[50%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-4">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-4 absolute bottom-0 right-0 w-1/2 translate-x-[55%] translate-y-[50%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-5">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                                        <div class="orn-5 absolute bottom-0 left-0 w-1/2 translate-x-[-5%] translate-y-[75%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-6">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                                        <div class="orn-6 absolute bottom-0 right-0 w-1/2 translate-x-[5%] translate-y-[75%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-7">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-7 absolute bottom-0 left-0 w-2/5 -translate-x-[40%] translate-y-[50%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-8">
+                                                        <div class="orn-8 absolute bottom-0 right-0 w-[45%] translate-x-[25%] translate-y-[55%]">
                                                             <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-9">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-9 absolute bottom-0 left-1/2 w-[42%] -translate-x-1/2 translate-y-[72%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="event-name-body has-animate" data-anim="zoom-out" data-anim-delay="2000" data-load-animation="true">
-                                                        <h4 class="title-event-name" style="font-family: ; font-size: px;">Acara Pernikahan</h4>
-                                                        <span>Monday,</span>
-                                                        <div class="date">
-                                                            <h5>05</h5>
-                                                            <div class="line color__button__trans"></div>
+                                                    <div class="event-name-body relative py-12 px-4 pb-20 z-50 has-animate" data-anim="zoom-out" data-anim-delay="2000" data-load-animation="true">
+                                                        <h4 class="text-[32px] font-baskervville">Acara Pernikahan</h4>
+                                                        <span class="mb-0 text-base font-semibold">Monday,</span>
+                                                        <div class="date relative p-2 w-full">
+                                                            <h5 class="font-baskervville mb-0 text-8xl">05</h5>
+                                                            <div class="line color__button__trans w-[45px] h-[1px] bg-white my-[0.2rem] mx-auto mb-[0.5rem]"></div>
                                                         </div>
-                                                        <span>May 2025</span>
-                                                        <p>08:00
+                                                        <span class="mb-0 text-[16px] font-semibold">May 2025</span>
+                                                        <p class="mb-0 text-[16px] font-semibold">08:00
                                                             -
                                                             10:00
-
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="event-place">
-                                                    <div class="ornaments-wrapper overflow-hidden">
-                                                        <div class="ornament ornament-right">
-                                                            <div class="image-element has-animate" data-anim="fade-right" data-load-animation="true">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid">
+                                                <div class="event-place rounded-lg relative">
+                                                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+                                                        <div class="ornament ornament-right absolute top-[-0.5rem] w-[13%] right-0 transform scale-x-[-1]">
+                                                            <div class="image-element relative w-full h-auto has-animate" data-anim="fade-right" data-load-animation="true">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="event-place-body has-animate" data-anim="fade-right" data-load-animation="true">
-                                                        <div class="event-description">
+                                                    <div class="event-place-body relative py-0 px-[4rem] pb-[2rem] pl-[1.5rem] has-animate" data-anim="fade-right" data-load-animation="true">
+                                                        <div class="event-description relative mb-8">
                                                             <p><em><strong>Dress Code :</strong></em><br>We kindly ask that you wear these colors to our special day</p>
                                                             <p><img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL3VwbG9hZHMvQ3Y1T3FSSjRZWEYyV052ejhFbXJ6U3dZTTJ0R0x4elpPcEkyVDZTYy5wbmc.png" alt="" width="150" height="150"></p>
                                                             <p>Any kind of <strong>pastel</strong></p>
                                                         </div>
-                                                        <div class="ribbon-venue" data-animationloop="keyframe">
-                                                            <div data-anim="zoom-out" class="has-animate" data-load-animation="true">
-                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 560 560" style="enable-background:new 0 0 560 560;overflow: visible;" xml:space="preserve">
-                                                                                        <g id="Layer_1">
-                                                                                        </g>
+                                                        <div class="ribbon-venue relative mb-4" data-animationloop="keyframe">
+                                                            <div data-anim="zoom-out" class="" data-load-animation="true">
+                                                                <svg class="w-[40px] h-auto text-white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 560 560" style="enable-background:new 0 0 560 560;overflow: visible;" xml:space="preserve">
+                                                                    <g id="Layer_1">
+                                                                    </g>
                                                                     <g id="Layer_3">
                                                                         <g>
                                                                             <g>
@@ -710,121 +709,120 @@
                                                                         <ellipse class="st1" cx="272.8" cy="437.9" rx="146.4" ry="40.9"></ellipse>
                                                                         <ellipse class="st0 dot" cx="273.6" cy="437.9" rx="63.1" ry="17"></ellipse>
                                                                     </g>
-                                                                                    </svg>
+                                                                </svg>
                                                             </div>
                                                         </div>
-                                                        <h4 class="notranslate" style="font-family:  !important; font-size: px;">Hotel Shangri-La</h4>
-                                                        <span class="notranslate">Jl. Jend. Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220</span>
-                                                        <div class="widget-elements">
-                                                            <a class="btn btn-custom color-secondary" aria-label="button maps" href="#" data-bs-toggle="modal" data-bs-target="#event2416">Location</a>
+                                                        <h4 class="text-2xl p-1">Hotel Shangri-La</h4>
+                                                        <span class="">Jl. Jend. Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220</span>
+                                                        <div class="widget-elements mt-4">
+                                                            <a class="btn border bg-[var(--color-secondary)] py-2 px-8 transition-all duration-300 ease-in-out text-button rounded-full mx-auto color-[var(--color-secondary)]" aria-label="button maps" href="#" data-bs-toggle="modal" data-bs-target="#event2416">Location</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-12 position-relative">
-                                        <div class="card color-primary">
-                                            <div class="rebung-horizontal">
-                                                <div class="image-element">
+                                    <div class="relative w-full flex-auto mt-6">
+                                        <div class="card rounded-2xl bg-[var(--color-main)] text-[var(--color-light)] border-none text-left overflow-hidden">
+                                            <div class="rebung-horizontal relative -ml-[0.5rem] w-auto h-full">
+                                                <div class="image-element relative w-[160%] h-auto">
                                                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctaG9yaXpvbnRhbC5wbmc.webp" alt="rebung-horizontal">
                                                 </div>
                                             </div>
-                                            <div class="ornaments-wrapper">
-                                                <div class="orn-10">
-                                                    <div class="image-element has-animate" data-anim="fade-up" data-load-animation="true">
-                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                            <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden rounded-2xl">
+                                                <div class="orn-10 absolute bottom-0 left-0 w-[80%] transform -translate-x-[45%] translate-y-[80%]">
+                                                    <div class="image-element relative w-full h-auto has-animate" data-anim="fade-up" data-load-animation="true">
+                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                     </div>
                                                 </div>
-                                                <div class="orn-11">
-                                                    <div class="image-element has-animate" data-anim="fade-up" data-load-animation="true">
-                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                                <div class="orn-11 absolute bottom-0 right-0 w-[80%] transform translate-x-[20%] translate-y-[85%]">
+                                                    <div class="image-element relative w-full h-auto has-animate" data-anim="fade-up" data-load-animation="true">
+                                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="card-body">
-                                                <div class="event-name">
-                                                    <div class="ornaments-wrapper has-animate" data-anim="zoom-out" data-load-animation="true">
-                                                        <div class="sky">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid">
+                                            <div class="card-body p-0 flex-1">
+                                                <div class="event-name relative w-full mb-4 rounded-b-lg text-center overflow-hidden">
+                                                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none has-animate" data-anim="zoom-out" data-load-animation="true">
+                                                        <div class="sky absolute top-0 left-1/2 w-[180%] -translate-x-1/2 -translate-y-12">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="ampera">
-                                                            <div class="image-element has-animate" data-anim="slide-up" data-load-animation="true">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid">
+                                                        <div class="ampera absolute bottom-0 left-1/2 w-[150%] -translate-x-[60%]">
+                                                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-up" data-load-animation="true">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-3">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-3 absolute bottom-0 left-0 w-1/2 -translate-x-[55%] translate-y-[50%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-4">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-4 absolute bottom-0 right-0 w-1/2 translate-x-[55%] translate-y-[50%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-5">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                                        <div class="orn-5 absolute bottom-0 left-0 w-1/2 translate-x-[-5%] translate-y-[75%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-6">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                                                        <div class="orn-6 absolute bottom-0 right-0 w-1/2 translate-x-[5%] translate-y-[75%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-7">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-7 absolute bottom-0 left-0 w-2/5 -translate-x-[40%] translate-y-[50%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-8">
+                                                        <div class="orn-8 absolute bottom-0 right-0 w-[45%] translate-x-[25%] translate-y-[55%]">
                                                             <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
-                                                        <div class="orn-9">
-                                                            <div class="image-element">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                                        <div class="orn-9 absolute bottom-0 left-1/2 w-[42%] -translate-x-1/2 translate-y-[72%]">
+                                                            <div class="image-element relative w-full h-auto">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="event-name-body has-animate" data-anim="zoom-out" data-anim-delay="2000" data-load-animation="true">
-                                                        <h4 class="title-event-name" style="font-family: ; font-size: px;">Resepsi</h4>
-                                                        <span>Monday,</span>
-                                                        <div class="date">
-                                                            <h5>05</h5>
-                                                            <div class="line color__button__trans"></div>
+                                                    <div class="event-name-body relative py-12 px-4 pb-20 z-50 has-animate" data-anim="zoom-out" data-anim-delay="2000" data-load-animation="true">
+                                                        <h4 class="text-[32px] font-baskervville">Resepsi</h4>
+                                                        <span class="mb-0 text-base font-semibold">Monday,</span>
+                                                        <div class="date relative p-2 w-full">
+                                                            <h5 class="font-baskervville mb-0 text-8xl">05</h5>
+                                                            <div class="line color__button__trans w-[45px] h-[1px] bg-white my-[0.2rem] mx-auto mb-[0.5rem]"></div>
                                                         </div>
-                                                        <span>May 2025</span>
-                                                        <p>15:00
+                                                        <span class="mb-0 text-[16px] font-semibold">May 2025</span>
+                                                        <p class="mb-0 text-[16px] font-semibold">15:00
                                                             -
                                                             17:00
-
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="event-place">
-                                                    <div class="ornaments-wrapper overflow-hidden">
-                                                        <div class="ornament ornament-right">
-                                                            <div class="image-element has-animate" data-anim="fade-right" data-load-animation="true">
-                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid">
+                                                <div class="event-place rounded-lg relative">
+                                                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+                                                        <div class="ornament ornament-right absolute top-[-0.5rem] w-[13%] right-0 transform scale-x-[-1]">
+                                                            <div class="image-element relative w-full h-auto has-animate" data-anim="fade-right" data-load-animation="true">
+                                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid w-full h-auto">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="event-place-body has-animate" data-anim="fade-right" data-load-animation="true">
-                                                        <div class="event-description">
+                                                    <div class="event-place-body relative py-0 px-[4rem] pb-[2rem] pl-[1.5rem] has-animate" data-anim="fade-right" data-load-animation="true">
+                                                        <div class="event-description relative mb-8">
                                                             <p><em><strong>Dress Code :</strong></em><br>We kindly ask that you wear these colors to our special day</p>
                                                             <p><img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL3VwbG9hZHMvQ3Y1T3FSSjRZWEYyV052ejhFbXJ6U3dZTTJ0R0x4elpPcEkyVDZTYy5wbmc.png" alt="" width="150" height="150"></p>
                                                             <p>Any kind of <strong>pastel</strong></p>
                                                         </div>
-                                                        <div class="ribbon-venue" data-animationloop="keyframe">
-                                                            <div data-anim="zoom-out" class="has-animate" data-load-animation="true">
-                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 560 560" style="enable-background:new 0 0 560 560;overflow: visible;" xml:space="preserve">
-                                                                                        <g id="Layer_1">
-                                                                                        </g>
+                                                        <div class="ribbon-venue relative mb-4" data-animationloop="keyframe">
+                                                            <div data-anim="zoom-out" class="" data-load-animation="true">
+                                                                <svg class="w-[40px] h-auto text-white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 560 560" style="enable-background:new 0 0 560 560;overflow: visible;" xml:space="preserve">
+                                                                    <g id="Layer_1">
+                                                                    </g>
                                                                     <g id="Layer_3">
                                                                         <g>
                                                                             <g>
@@ -840,13 +838,13 @@
                                                                         <ellipse class="st1" cx="272.8" cy="437.9" rx="146.4" ry="40.9"></ellipse>
                                                                         <ellipse class="st0 dot" cx="273.6" cy="437.9" rx="63.1" ry="17"></ellipse>
                                                                     </g>
-                                                                                    </svg>
+                                                                </svg>
                                                             </div>
                                                         </div>
-                                                        <h4 class="notranslate" style="font-family:  !important; font-size: px;">Hotel Shangri-La</h4>
-                                                        <span class="notranslate">Jl. Jend. Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220</span>
-                                                        <div class="widget-elements">
-                                                            <a class="btn btn-custom color-secondary" aria-label="button maps" href="#" data-bs-toggle="modal" data-bs-target="#event7032">Location</a>
+                                                        <h4 class="text-2xl p-1">Hotel Shangri-La</h4>
+                                                        <span class="">Jl. Jend. Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220</span>
+                                                        <div class="widget-elements mt-4">
+                                                            <a class="btn border bg-[var(--color-secondary)] py-2 px-8 transition-all duration-300 ease-in-out text-button rounded-full mx-auto color-[var(--color-secondary)]" aria-label="button maps" href="#" data-bs-toggle="modal" data-bs-target="#event2416">Location</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -858,99 +856,98 @@
                         </div>
                     </div>
                 </section>
-                <!-- rsvp section -->
-                <section class="rsvp-section">
-                    <div class="ornaments-wrapper">
-                        <div class="orn-1">
-                            <div class="image-element has-animate" data-anim="slide-right" data-load-animation="true">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid">
+                <section class="rsvp-section relative py-12 bg-[var(--color-primary)]">
+                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none">
+                        <div class="orn-1 absolute bottom-[40%] left-0 w-[95%] translate-x-[-60%] translate-y-[0%]">
+                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-right" data-load-animation="true">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-2">
-                            <div class="image-element has-animate" data-anim="slide-left" data-load-animation="true">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid">
+                        <div class="orn-2 absolute bottom-[40%] right-0 w-[95%] translate-x-[60%] translate-y-[0%]">
+                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-left" data-load-animation="true">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-3">
-                            <div class="image-element has-animate" data-anim="slide-right" data-load-animation="true">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                        <div class="orn-3 absolute bottom-0 left-0 w-[80%] translate-x-[-50%]">
+                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-right" data-load-animation="true">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-4">
-                            <div class="image-element has-animate" data-anim="slide-left" data-load-animation="true">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                        <div class="orn-4 absolute bottom-0 right-0 w-[80%] translate-x-[50%]">
+                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-left" data-load-animation="true">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                             </div>
                         </div>
                     </div>
-                    <div class="ornaments-wrapper orn-front">
-                        <div class="rumah">
-                            <div class="orn-5">
-                                <div class="image-element">
-                                    <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                    <div class="ornaments-wrapper orn-front absolute top-0 left-0 w-full h-full pointer-events-none z-30">
+                        <div class="rumah absolute bottom-0 left-0 w-[120%] -translate-x-[38%] -translate-y-[5%]">
+                            <div class="orn-5 absolute bottom-1/2 right-[45%] w-[35%]">
+                                <div class="image-element relative w-full h-auto">
+                                    <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                 </div>
-                                <div class="orn-6">
-                                    <div class="image-element">
-                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                                <div class="orn-6 absolute bottom-1/2 right-[20%] w-[80%]">
+                                    <div class="image-element relative w-full h-auto">
+                                        <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                     </div>
                                 </div>
                             </div>
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9ydW1haC1saW1hcy5wbmc.webp" alt="rumah-limas" class="img-fluid">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9ydW1haC1saW1hcy5wbmc.webp" alt="rumah-limas" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-11">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                        <div class="orn-11 absolute bottom-0 left-0 w-[90%] translate-x-[-30%] translate-y-[85%] scale-x-[-1]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                             </div>
                         </div>
-                        <div class="orn-12">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0yLnBuZw.webp" alt="lotus-2" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                        <div class="orn-12 absolute bottom-0 left-1/2 w-[35%] transform -translate-x-1/2 translate-y-[45%] scale-x-[-1]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0yLnBuZw.webp" alt="lotus-2" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                             </div>
                         </div>
-                        <div class="orn-7">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                        <div class="orn-7 absolute bottom-0 left-0 w-[45%] transform -translate-x-1/2 translate-y-[55%] rotate-[10deg]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                             </div>
                         </div>
-                        <div class="orn-8">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                        <div class="orn-8 absolute bottom-0 right-0 w-[40%] transform translate-x-[50%] scale-x-[-1]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                             </div>
-                            <div class="orn-9">
-                                <div class="image-element">
-                                    <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                            <div class="orn-9 absolute bottom-[50%] right-[20%] w-[80%]">
+                                <div class="image-element relative w-full h-auto">
+                                    <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                                 </div>
                             </div>
                         </div>
-                        <div class="orn-10">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                        <div class="orn-10 absolute bottom-0 right-0 w-[45%] transform translate-x-[-10%] translate-y-[60%] rotate-[15deg]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yb3NlLnBuZw.webp" alt="rose" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
                             </div>
                         </div>
-                        <div class="orn-13">
-                            <div class="image-element">
-                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid">
+                        <div class="orn-13 absolute bottom-0 right-0 w-[80%] translate-x-[65%] translate-y-[75%] scale-x-[-1]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                             </div>
                         </div>
                     </div>
-                    <div class="container position-relative">
-                        <div class="row justify-content-center">
-                            <div class="col-md-7 col-lg-12 position-relative">
-                                <div class="rsvp-wrapper">
-                                    <div class="rsvp-form">
-                                        <div class="ampera">
-                                            <div class="image-element">
-                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid">
+                    <div class="container px-[1.8rem] relative">
+                        <div class="flex justify-center">
+                            <div class="relative">
+                                <div class="rsvp-wrapper relative bg-[var(--color-main)] text-[var(--color-light)] rounded-[300px]">
+                                    <div class="rsvp-form relative py-12 px-12 pb-40 z-50">
+                                        <div class="ampera relative w-1/2 mx-auto mb-4">
+                                            <div class="image-element relative w-full h-auto">
+                                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid w-full h-auto">
                                             </div>
                                         </div>
-                                        <div class="title-section has-animate" data-anim="zoom-out" data-load-animation="true">
-                                            <h2><p>RSVP</p></h2>
+                                        <div class="title-section relative w-full text-center mb-5 has-animate" data-anim="zoom-out" data-load-animation="true">
+                                            <h2 class="block w-full font-baskervville mb-0 font-medium text-[38px] tracking-tight"><p>RSVP</p></h2>
                                         </div>
                                         <div id="cardRSVP">
                                             <form action="#" method="post" data-anim="fade" data-anim-delay="500" id="tambahdata" autocomplete="off" class="has-animate" novalidate="novalidate" data-load-animation="true">
                                                 <div class="mb-2 has-animate" data-anim="zoom-in-up" data-anim-delay="500" data-load-animation="true">
-                                                    <label for="name" class="form-label">Name</label>
+                                                    <label for="name" class="form-label mb-0">Name</label>
                                                     <input required="" type="text" name="name" class="form-control mb-3" value="">
                                                 </div>
                                                 <div class="mb-2 has-animate" data-anim="zoom-in-up" data-anim-delay="500" data-load-animation="true">
@@ -961,11 +958,11 @@
                                                     <label for="no_hp" class="form-label">Phone Number</label>
                                                     <input required="" type="text" name="no_hp" class="form-control mb-3" value="">
                                                 </div>
-                                                <div class="mb-2 has-animate" data-anim="zoom-in-up" data-anim-delay="500" data-load-animation="true">
+                                                <div class="mb-6 has-animate" data-anim="zoom-in-up" data-anim-delay="500" data-load-animation="true">
                                                     <label for="jumlah" class="form-label">Number of Guest</label>
                                                     <input required="" maxlength="3" max="100" type="number" name="jumlah" class="form-control mb-3" min="1">
                                                 </div>
-                                                <div class="mb-4">
+                                                <div class="mb-6">
                                                     <label for="" class="form-label"></label>
                                                     <select required="" name="status" class="form-select has-animate" data-anim="zoom-in-up" data-anim-delay="500" data-load-animation="true">
                                                         <option disabled="" selected="">
@@ -980,9 +977,9 @@
                                                     </select>
                                                 </div>
                                                 <input type="hidden" name="invitation_id" value="">
-                                                <input type="text" name="guest_type" class="d-none" value=""><input type="hidden" name="stepper_id" value="1351">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-md-6">
+                                                <input type="text" name="guest_type" class="hidden" value=""><input type="hidden" name="stepper_id" value="1351">
+                                                <div class="flex justify-center">
+                                                    <div class="relative">
                                                         <button class="btn btn-custom color-secondary w-100 has-animate" type="submit" id="tombolsimpan" data-anim="zoom-in-up" data-anim-delay="500" data-load-animation="true">Send</button>
                                                     </div>
                                                 </div>
@@ -994,6 +991,430 @@
                         </div>
                     </div>
                 </section>
+            </section>
+            <section class="wishes-section moveable-section">
+                <div class="wishes-wrapper-form relative pt-12 bg-[var(--color-main)] text-light color-[var(--color-primary)] overflow-hidden">
+                    <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+                        <div class="sky absolute top-0 left-1/2 w-[150%] transform -translate-x-1/2 -translate-y-[15%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid w-full h-auto">
+                            </div>
+                        </div>
+                        <div class="ampera absolute bottom-0 left-1/2 w-[140%] transform -translate-x-[60%]">
+                            <div class="image-element relative w-full h-auto has-animate" data-anim="slide-up" data-load-animation="true">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9hbXBlcmEucG5n.webp" alt="ampera" class="img-fluid w-full h-auto">
+                            </div>
+                        </div>
+                        <div class="orn-1 absolute top-0 left-0 w-[80%] transform -translate-x-[75%] -translate-y-[10%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto animate-loop has-animate" data-anim="rotate-left" data-load-animation="true">
+                            </div>
+                        </div>
+                        <div class="orn-2 absolute top-0 right-0 w-[95%] transform translate-x-[75%] -translate-y-[5%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid w-full h-auto animate-loop has-animate" data-anim="rotate-left" data-load-animation="true">
+                            </div>
+                        </div>
+                        <div class="orn-3 absolute bottom-0 left-0 w-full transform -translate-x-[65%] translate-y-[75%] scale-x-[-1]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid w-full h-auto">
+                            </div>
+                        </div>
+                        <div class="orn-4 absolute bottom-0 right-0 w-full transform translate-x-[60%] translate-y-[80%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid w-full h-auto">
+                            </div>
+                        </div>
+                        <div class="orn-5 absolute bottom-0 left-0 w-[35%] transform translate-x-[-50%] translate-y-[5%]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                            </div>
+                        </div>
+                        <div class="orn-6 absolute bottom-0 right-0 w-[38%] transform translate-x-[60%] translate-y-[5%] scale-x-[-1]">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0xLnBuZw.webp" alt="lotus-1" class="img-fluid w-full h-auto animate-loop has-animate animate-paused" data-anim="rotate-left" data-load-animation="true">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container px-[1.8rem] relative">
+                        <div class="flex justify-center">
+                            <div class="relative">
+                                <div class="card card-form relative flex flex-col min-w-0 break-words bg-transparent bg-clip-border border-none rounded-md">
+                                    <div class="card-body pt-0 px-8 pb-8">
+                                        <div class="title-section relative w-full text-center mb-5 has-animate" data-anim="zoom-out" data-load-animation="true">
+                                            <h2 class="block w-full mb-0 font-medium text-[38px] antialiased tracking-tight">Wedding Wishes</h2>
+                                        </div>
+                                        <div class="widget-wrapper has-animate" data-anim="zoom-out-up" data-load-animation="true">
+                                            <div class="guestbook_form_wrapper">
+                                                <form class="relative color__button__trans" action="https://viding.co/bookstore" method="post" id="guestbook_form" novalidate="novalidate">
+                                                    <input type="hidden" name="_token" value="XRXLjJ1iCuFhS6zJyciLBfSqDUfPLqtElNgDvA1S">                                                                <input type="hidden" name="domain" value="dummyaccount.viding.co">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label mb-0">Name</label>
+                                                        <input type="text" name="name" value="" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="alamat" class="form-label mb-0">Address</label>
+                                                        <input type="text" name="alamat" value="" class="form-control">
+                                                    </div>
+                                                    <input type="text" name="robot_field" class="hidden" placeholder="Enter your message"><input type="text" name="guest_type" class="hidden" value=""><input type="number" id="comment_length" name="comment_length" class="hidden" value="0"><div class="textarea-wrapper">
+                                                        <label for="comment" class="form-label">Write your wishes</label>
+                                                        <textarea required="" name="comment" cols="30" rows="5" class="form-control" maxlength="300"></textarea>
+                                                    </div>
+                                                    <div id="charCountContainer" style="margin-bottom: 3px;"><div id="charCount" style="text-align: left;">Characters left: 300</div>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-custom color-secondary m-auto w-full" id="guestbook_submit_btn">Send</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wishes-preview bg-[var(--color-primary)] relative">
+                    <div class="ornaments-wrapper ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+                        <div class="elements-wrapper-absolute absolute bottom-0 left-0 w-full h-full">
+                            <div class="background-element relative w-[190%] h-auto">
+                                <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9tb3RpZi1mbG93ZXIucG5n.webp" alt="motif-flower" class=" ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9tb3RpZi1mbG93ZXIucG5n.webp">
+                            </div>
+                        </div>
+                        <div class="ornament absolute top-[-0.5rem] w-[13%] left-0 ornament-left">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid w-full h-auto">
+                            </div>
+                        </div>
+                        <div class="ornament absolute top-[-0.5rem] w-[13%] right-0 transform scale-x-[-1] ornament-right">
+                            <div class="image-element relative w-full h-auto">
+                                <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid w-full h-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container px-[1.8rem] relative">
+                        <div class="flex justify-center">
+                            <div class="mt-3">
+                                <div class="card relative flex flex-col min-w-0 break-words bg-transparent bg-clip-border border-none rounded-md">
+                                    <div class="card-body overflow-hidden py-[2rem] px-0 text-left color__button__trans">
+                                        <div id="wishes_wrapper" data-url="https://viding.co/booksfour/dummyaccount.viding.co"><div class="wishes has-animate" data-anim="zoom-in-up" id="wishes-container" data-load-animation="true">
+                                                <div class="wish mb-6 grid grid-cols-[auto_1fr] w-96 gap-4">
+                                                    <div class="wish-badge bg-[#f0f0f0] w-[35px] aspect-square flex justify-center items-center rounded-full">
+                                                        <h6>V</h6>
+                                                    </div>
+                                                    <div class="wish-description p-4 bg-white/80 rounded-md relative">
+                                                        <h6 class="text-[1.17rem] font-bold">Viding</h6>
+                                                        <p>
+                                                            Happy Wedding
+                                                        </p>
+                                                        <small class="text-muted">4 months ago
+                                                            at 13:27</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="egift-section bg-[var(--color-main)] relative py-12 moveable-section" data-id="5">
+                <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
+                    <div class="ornament ornament-right absolute top-[-0.5rem] w-[13%] right-0 transform scale-x-[-1] ornament-right">
+                        <div class="image-element relative w-full h-auto">
+                            <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid w-full h-auto ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp">
+                            <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp" alt="rebung-vertical-2" class="img-fluid w-full h-auto ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwtMi5wbmc.webp">
+                        </div>
+                    </div>
+                    <div class="orn-1 absolute top-0 right-0 w-[85%] transform translate-x-[60%] -translate-y-[32%]">
+                        <div class="image-element relative w-full h-auto">
+                            <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto animate-loop has-animate" data-anim="rotate-left" data-load-animation="true">
+                        </div>
+                    </div>
+                    <div class="orn-2 absolute top-4 right-0 w-[35%] transform translate-x-[40%] rotate-[-20deg] scale-x-[-1]">
+                        <div class="image-element relative w-full h-auto">
+                            <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9sb3R1cy0yLnBuZw.webp" alt="lotus-2" class="img-fluid w-full h-auto animate-loop has-animate" data-anim="rotate-left" data-load-animation="true">
+                        </div>
+                    </div>
+                </div>
+                <div class="container px-[1.8rem] relative">
+                    <div class="flex">
+                        <div class="text-center relative">
+                            <div class="gift-wrap relative text-left pr-4 mb-8">
+                                <div class="title-section text-left text-white has-animate" data-anim="zoom-out" data-load-animation="true">
+                                    <h2 class="block w-full mb-4 font-baskervville font-medium text-[38px]">E-Angpao</h2>
+                                </div>
+                                <div class="tabs-gift relative flex items-center bg-white bg-opacity-20 justify-center w-fit p-1 rounded-3xl gap-2 inherit ">
+                                    <button class="btn btn-custom flex items-center text-white justify-center color__button__trans color-secondary" data-tab=".angpao">
+                                        <div class="glider"></div>
+                                        <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M31.668 8.75H8.33464C7.56244 8.75438 6.82311 9.06307 6.27708 9.60911C5.73104 10.1551 5.42234 10.8945 5.41797 11.6667V28.3333C5.42234 29.1055 5.73104 29.8449 6.27708 30.3909C6.82311 30.9369 7.56244 31.2456 8.33464 31.25H31.668C32.4402 31.2456 33.1795 30.9369 33.7255 30.3909C34.2716 29.8449 34.5803 29.1055 34.5846 28.3333V11.6667C34.5803 10.8945 34.2716 10.1551 33.7255 9.60911C33.1795 9.06307 32.4402 8.75438 31.668 8.75ZM32.0846 11.6667V14.45H31.7346C31.5354 14.4749 31.3339 14.4749 31.1346 14.45H30.918C30.7297 14.4122 30.5455 14.3564 30.368 14.2833H30.168C29.93 14.1681 29.7152 14.0099 29.5346 13.8167C29.2874 13.5726 29.0909 13.282 28.9564 12.9616C28.822 12.6412 28.7523 12.2974 28.7513 11.95C28.7518 11.7186 28.7854 11.4885 28.8513 11.2667H31.668C31.7756 11.2666 31.8792 11.3082 31.9569 11.3828C32.0345 11.4573 32.0803 11.5591 32.0846 11.6667ZM8.33464 11.25H11.1513C11.2172 11.4718 11.2509 11.7019 11.2513 11.9333C11.2503 12.2808 11.1806 12.6246 11.0462 12.9449C10.9117 13.2653 10.7152 13.5559 10.468 13.8C10.283 13.9882 10.0692 14.1458 9.83464 14.2667H9.61797C9.45479 14.3471 9.28073 14.4033 9.1013 14.4333H8.86797C8.66875 14.4583 8.46719 14.4583 8.26797 14.4333H7.91797V11.6667C7.91797 11.5562 7.96187 11.4502 8.04001 11.372C8.11815 11.2939 8.22413 11.25 8.33464 11.25ZM7.91797 28.3333V25.55H8.26797C8.46719 25.5251 8.66875 25.5251 8.86797 25.55H9.08464C9.27474 25.5801 9.45981 25.6362 9.63464 25.7167H9.83464C10.0692 25.8376 10.283 25.9951 10.468 26.1833C10.7152 26.4274 10.9117 26.718 11.0462 27.0384C11.1806 27.3588 11.2503 27.7026 11.2513 28.05C11.2509 28.2814 11.2172 28.5115 11.1513 28.7333H8.33464C8.22696 28.7334 8.12343 28.6918 8.04575 28.6172C7.96807 28.5427 7.92228 28.4409 7.91797 28.3333ZM13.7013 28.75C13.7184 28.5225 13.7184 28.2941 13.7013 28.0667C13.7076 27.3899 13.5763 26.719 13.3156 26.0944C13.0549 25.4699 12.6702 24.9048 12.1846 24.4333C11.9393 24.1849 11.6651 23.9667 11.368 23.7833L11.0846 23.6C10.89 23.4996 10.6896 23.4105 10.4846 23.3333L10.1513 23.2C9.86232 23.115 9.5669 23.0537 9.26797 23.0167C9.09617 22.9995 8.9231 22.9995 8.7513 23.0167H7.91797V17.0333H9.33464C9.56077 16.9948 9.78363 16.9391 10.0013 16.8667L10.368 16.75C10.6227 16.663 10.8683 16.5514 11.1013 16.4167L11.368 16.2667C11.679 16.0622 11.9693 15.8277 12.2346 15.5667C12.7202 15.0952 13.1049 14.5301 13.3656 13.9056C13.6263 13.281 13.7575 12.6101 13.7513 11.9333C13.7684 11.7059 13.7684 11.4775 13.7513 11.25H26.3513C26.3342 11.4775 26.3342 11.7059 26.3513 11.9333C26.3451 12.6101 26.4763 13.281 26.737 13.9056C26.9977 14.5301 27.3824 15.0952 27.868 15.5667C28.1289 15.8326 28.4197 16.0675 28.7346 16.2667L29.0013 16.4167C29.2343 16.5514 29.4799 16.663 29.7346 16.75L30.1013 16.8667C30.3249 16.9343 30.5533 16.9844 30.7846 17.0167H32.1846V22.95H31.3513C31.1795 22.9335 31.0065 22.9335 30.8346 22.95C30.5357 22.987 30.2403 23.0484 29.9513 23.1333L29.618 23.2667C29.3952 23.3528 29.1781 23.453 28.968 23.5667L28.6846 23.75C28.3875 23.9334 28.1133 24.1516 27.868 24.4C27.3824 24.8715 26.9977 25.4366 26.737 26.0611C26.4763 26.6856 26.3451 27.3566 26.3513 28.0333C26.3342 28.2608 26.3342 28.4892 26.3513 28.7167L13.7013 28.75ZM31.668 28.75H28.8513C28.7854 28.5282 28.7518 28.2981 28.7513 28.0667C28.7523 27.7192 28.822 27.3754 28.9564 27.0551C29.0909 26.7347 29.2874 26.4441 29.5346 26.2C29.7152 26.0068 29.93 25.8486 30.168 25.7333H30.368C30.5463 25.6626 30.7303 25.6068 30.918 25.5667H31.1346C31.3339 25.5417 31.5354 25.5417 31.7346 25.5667H32.0846V28.3333C32.0846 28.4438 32.0407 28.5498 31.9626 28.628C31.8845 28.7061 31.7785 28.75 31.668 28.75Z" fill="#353A40"></path>
+                                            <path d="M20.0013 14.167C18.8476 14.167 17.7198 14.5091 16.7605 15.1501C15.8012 15.7911 15.0535 16.7021 14.612 17.768C14.1705 18.8339 14.055 20.0068 14.2801 21.1384C14.5051 22.2699 15.0607 23.3093 15.8765 24.1251C16.6923 24.9409 17.7317 25.4965 18.8633 25.7216C19.9948 25.9467 21.1677 25.8311 22.2336 25.3896C23.2995 24.9481 24.2106 24.2004 24.8515 23.2412C25.4925 22.2819 25.8346 21.154 25.8346 20.0003C25.8346 18.4532 25.2201 16.9695 24.1261 15.8755C23.0321 14.7816 21.5484 14.167 20.0013 14.167ZM20.0013 23.3337C19.342 23.3337 18.6976 23.1382 18.1494 22.7719C17.6012 22.4056 17.174 21.885 16.9217 21.2759C16.6694 20.6668 16.6034 19.9966 16.732 19.35C16.8606 18.7034 17.1781 18.1095 17.6443 17.6433C18.1105 17.1771 18.7044 16.8597 19.351 16.731C19.9976 16.6024 20.6678 16.6684 21.2769 16.9207C21.886 17.173 22.4066 17.6003 22.7729 18.1484C23.1391 18.6966 23.3346 19.3411 23.3346 20.0003C23.3346 20.8844 22.9834 21.7322 22.3583 22.3573C21.7332 22.9825 20.8854 23.3337 20.0013 23.3337Z" fill="#353A40"></path>
+                                        </svg>
+                                        E-Angpao
+                                    </button>
+                                    <button class="btn btn-custom flex items-center justify-center color__button__trans color-secondary tab " data-tab=".gift">
+                                        <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.625 12.1094L11.3906 12.1094C10.8594 11.2734 10.5469 10.2813 10.5469 9.21875C10.5469 6.2461 12.9648 3.82813 15.9375 3.82813C17.5547 3.82813 19.0117 4.54688 20 5.67969C20.9883 4.54688 22.4453 3.82813 24.0625 3.82813C27.0352 3.82813 29.4531 6.24609 29.4531 9.21875C29.4531 10.2813 29.1445 11.2734 28.6094 12.1094L34.375 12.1094C35.0664 12.1094 35.625 12.668 35.625 13.3594L35.625 21.1719C35.625 21.3438 35.4844 21.4844 35.3125 21.4844L33.75 21.4844L33.75 34.9219C33.75 35.6133 33.1914 36.1719 32.5 36.1719L7.5 36.1719C6.8086 36.1719 6.25 35.6133 6.25 34.9219L6.25 21.4844L4.6875 21.4844C4.51563 21.4844 4.375 21.3438 4.375 21.1719L4.375 13.3594C4.375 12.668 4.93359 12.1094 5.625 12.1094ZM18.6719 9.21875C18.6719 7.71094 17.4453 6.48438 15.9375 6.48438C14.4297 6.48438 13.2031 7.71094 13.2031 9.21875C13.2031 10.7266 14.4297 11.9531 15.9375 11.9531L18.6719 11.9531L18.6719 9.21875ZM24.0625 6.48438C22.5547 6.48438 21.3281 7.71094 21.3281 9.21875L21.3281 11.9531L24.0625 11.9531C25.5703 11.9531 26.7969 10.7266 26.7969 9.21875C26.7969 7.71094 25.5703 6.48438 24.0625 6.48438ZM32.9688 18.8281L32.9688 14.7656L21.3281 14.7656L21.3281 18.8281L32.9688 18.8281ZM31.0938 21.4844L21.3281 21.4844L21.3281 33.5156L31.0938 33.5156L31.0938 21.4844ZM8.90625 33.5156L18.6719 33.5156L18.6719 21.4844L8.90625 21.4844L8.90625 33.5156ZM7.03125 18.8281L18.6719 18.8281L18.6719 14.7656L7.03125 14.7656L7.03125 18.8281Z" fill="#F9FDF9"></path>
+                                        </svg>
+                                        Gift Registry
+                                    </button>
+                                </div>
+                                <div class="angpao my-3 show">
+                                    <div data-anim="fade-up" class="has-animate" data-load-animation="true">
+                                        <p class="text-white">Bapak/Ibu/Saudara sekalian dapat memberikan hadiah digital kepada kami melalui form dibawah. Bagi yang telah mengisi dan memberikan hadiah kepada kami, kami mengucapkan banyak terimakasih. Semoga hadiah dari Bapak/Ibu/Saudara dapat bermanfaat bagi kami dalam mengarungi bahtera rumah tangga</p>
+                                    </div>
+                                    <div class="widget-element has-animate" data-anim="fade-up" data-load-animation="true">
+                                        <button id="openAngpao" class="btn w-50 btn-custom color-secondary my-3">Send Gift</button>
+                                    </div>
+                                </div>
+                                <div class="gift my-3 hidden has-animate" data-anim="fade-up" style="" data-load-animation="true">
+                                    <p class="text-white">Anda bisa memberikan hadiah melalui website ini. <br>Klik Hadiahkan, setelah itu akan muncul pop up form, isi form data pengirim dan anda akan di email oleh sistem untuk detailnya. Biaya pengiriman akan dibebankan kepada tamu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gift-content">
+                    <div class="container px-[1.8rem]">
+                        <div class="flex justify-center">
+                            <div class="angpao show">
+                                <form  id="formGift" action="https://viding.co/payment/eyJpdiI6IlRURDBEclFldDhvU0poVDc2ZlhIZ3c9PSIsInZhbHVlIjoiNy9qeFBTOG1pTktYbVF4amZZQjNHQT09IiwibWFjIjoiY2EyNjNkY2M4YTcwZmZhMGI0MTcyM2Q3ZjZiMmY5MGI3NjdiOTExYzk2ODY1MzRhMDNjNzBiMDBjNThmNTY1NCIsInRhZyI6IiJ9/method" method="post" target="_top" novalidate="novalidate">
+                                    <input type="hidden" name="domain">
+                                    <div class="grid justify-center pl-10 pr-16 grid-cols-2 gap-2">
+                                        <div class="mb-3 angpao-field-hideable has-animate" data-anim="fade-down" data-load-animation="true">
+                                            <input type="text" required="" value="" class="form-control" placeholder="Name" name="name">
+                                        </div>
+                                        <div class="mb-3 angpao-field-hideable has-animate" data-anim="fade-down" data-load-animation="true">
+                                            <input type="email" required="" class="form-control text-black" placeholder="Email" name="email">
+                                        </div>
+                                        <div class="angpao-field-hideable has-animate" data-anim="fade-down" data-anim-delay="100" data-load-animation="true">
+                                            <input type="number" required="" class="form-control" placeholder="Mobile Phone" name="no_hp">
+                                        </div>
+                                        <div class="angpao-field-hideable has-animate" data-anim="fade-down" data-anim-delay="100" data-load-animation="true">
+                                            <input type="text" required="" class="form-control" placeholder="Address" name="alamat">
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-center items-center pl-10 pr-16 mt-4 flex-col">
+                                        <div class="has-animate w-1/2" data-anim="fade-down" data-anim-delay="200" data-load-animation="true">
+                                            <div class="input-group relative flex items-stretch w-full">
+                                                <span class="input-group-text flex items-center p-[0.375rem] px-[0.75rem] text-[1rem] font-[400] leading-[1.5] text-center whitespace-nowrap bg-[var(--color-secondary)] rounded-l-[8px] text-white color-secondary" id="basic-addon1">Rp</span>
+                                                <input type="number" required="" class="form-control rounded-l-none" placeholder="Amount" name="payment" min="10000">
+                                            </div>
+                                        </div>
+                                        <input type="text" name="guest_type" class="hidden" value="">
+                                        <div class="my-3">
+                                            <div class="form-check mt-10 form-group text-start has-animate" style="width: fit-content; margin:auto" data-anim="fade-down" data-anim-delay="200" data-load-animation="true">
+                                                <input type="checkbox" value="1" name="anonymous" class="form-check-input w-[1em] h-[1em] mt-[0.25em] align-top bg-[#fff] bg-no-repeat bg-center bg-contain border border-[#00000040] appearance-none rounded-md" id="anonymous_angpao">
+                                                <label class="form-check-label text-white ml-1" for="anonymous_angpao">Show as Anonymous</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 has-animate" data-anim="fade-down" data-anim-delay="300" data-load-animation="true">
+                                            <button class="btn btn-custom color-secondary w-100" type="submit">Send Gift</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-12 gift hidden">
+                                <div class="col-md-12 gift">
+                                    <div class="row m-auto">
+                                        <div class="col-md-12">
+                                            <div id="gift-registry-carousel-small" class="owl-carousel owl-theme gift-item owl-loaded owl-drag" style="text-align: center;">
+
+
+
+
+
+
+
+
+                                                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover active">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvYWM5ZG1JQWFzRnhlbzN0dWlVano1WVk3WGVFSjllWHJEQUVVWjJNTC5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                Water Heater
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 3.725.000</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(262)" disabled="" id="gift_262">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover active">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvTHR5a3JIeTdBQmZRRFJIN0pGbWx0OFZDZ0ZNV202Z0F0Y285cEJYMS5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                Cooker Hood
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 5.358.111</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(263)" disabled="" id="gift_263">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover active">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvM0FsN3NWdHZQVVFEVFJIUFRUaE1KTnZGOVdBSjAzR29OdkRJVUpMWS5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                Coffee Maker
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 799.000</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(264)" disabled="" id="gift_264">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover active">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvTEE5SDJoMkZlSlRXVERXdmd5VEtRMEcxaVNuZW1iNVRJMkpGc3dpdy5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                Hotel Honeymoon
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 704.000</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(265)" disabled="" id="gift_265">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover ">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvV09VNUswUk96eU5rZ1lLNmxtbnA4bzQ4bjFDd09HWjh2aEN3VHkzZC5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                10 X
+                                                                                Donasi Bibit untuk Petani Cimenyan Bandung
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 100.000</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(266)" id="gift_266">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover ">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvcm1xcmxCZjc3bVVPdHFKQ0UzMDVJZjlGSFQyb1dmc2IxaWtMVDBIeC5wbmc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                10 X
+                                                                                Spring Bed
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 3.000.000</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(267)" id="gift_267">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover ">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvMVRUb3RGNWRSS1d0eUw2a0dTSmNGcEtvTE9rUXVmWk9zc052QmhSOS5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                6 X
+                                                                                Dining Chair
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 298.999</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(268)" id="gift_268">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div><div class="owl-item"><div class="d-flex align-items-stretch item mb-3">
+                                                                <div class="gift-item-wrapper">
+                                                                    <div class="img-hover ">
+                                                                        <img class="image img-fluid" style="object-fit: cover; object-position: center" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:480:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dpZnQvYmJ5S3BYNzN1cUMweU9xaFoyZVBTbWN4a202OVplakRwQVFWRWJGTi5qcGc.webp">
+                                                                        <div class="middle">
+                                                                            <i class="fa-solid fa-circle-check"></i>
+                                                                            <p>Terbeli</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-gift">
+                                                                        <div class="d-flex align-items-start flex-column">
+                                                                            <div class="d-flex justify-content-start mt-2 mb-5" style="min-height: 100px; text-align: left">
+                                                                                6 X
+                                                                                Vacum Cleaner
+                                                                            </div>
+                                                                            <div class="d-flex justify-content-start mt-2">
+                                                                                <b>Rp. 251.900</b>
+                                                                            </div>
+                                                                            <button class="btn mt-3 btn-hadiahkan" onclick="detailData(269)" id="gift_269">Hadiahkan</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+                                            <div class="carousel-control-block pb-5">
+                                                <div class="carousel-btn-block banner-carousel-btn" style="display: inline-flex;">
+                                                    <span class="carousel-btn left-btn"><i class="fa fa-arrow-left"></i></span> &nbsp;
+                                                    <div class="carousel-number-count" style="padding-top: 3px;"><span class="current-number">NaN</span><span class="sep">/</span><span class="counted-number">0</span></div> &nbsp;
+                                                    <span class="carousel-btn right-btn"><i class="fa fa-arrow-right"></i></span>
+                                                </div>
+                                            </div><!-- /.carousel-control-block -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>

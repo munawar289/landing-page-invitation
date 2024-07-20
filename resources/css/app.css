@@ -27,3 +27,16 @@
     font-style: normal;
 }
 
+.form-control {
+    @apply border-none py-2 px-4 bg-white bg-opacity-80 text-black rounded-md block w-full text-base font-normal leading-6 bg-clip-padding appearance-none transition-colors duration-150 ease-in-out;
+}
+.btn-custom {
+    @apply bg-[var(--color-secondary)] py-2 px-16 transition-all duration-300 ease-in-out text-white w-fit mx-auto rounded-full;
+}
+.form-select {
+    @apply block w-full text-base font-normal leading-6 bg-no-repeat bg-right pr-3 font-sans border-none py-2 px-4 bg-white bg-opacity-80 text-gray-800 rounded-lg border border-gray-300 transition-colors duration-150 ease-in-out appearance-none;
+}
+.form-check-input {
+    @apply w-[1em] h-[1em] mt-[0.25em] align-top bg-white bg-no-repeat bg-center bg-contain border border-black/25 appearance-none;
+}
+
