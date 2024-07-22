@@ -25,12 +25,12 @@
                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9za3kucG5n.webp" alt="sky" class="img-fluid w-full h-auto">
                 </div>
             </div>
-            <div class="orn-1 absolute bottom-10 right-0 w-[50%] translate-x-[40%]">
+            <div class="orn-1 absolute bottom-[30%] lg:bottom-10 right-0 w-[65%] lg:w-[50%] translate-x-[40%]">
                 <div class="image-element relative w-full h-auto">
                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTEucG5n.webp" alt="tree-1" class="img-fluid w-full h-auto">
                 </div>
             </div>
-            <div class="orn-2 absolute bottom-[25%] left-0 w-[50%] -translate-x-[40%]">
+            <div class="orn-2 absolute bottom-[30%] lg:bottom-[25%] left-0 w-[65%] lg:w-[50%] -translate-x-[40%]">
                 <div class="image-element relative w-full h-auto">
                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90cmVlLTIucG5n.webp" alt="tree-2" class="img-fluid w-full h-auto">
                 </div>
@@ -45,13 +45,13 @@
                     </div>
                 </div>
             </div>
-            <div class="ornament absolute top-[-0.5rem] w-[8%] left-0 ornament-left">
+            <div class="ornament absolute top-[-0.5rem] w-[14%] lg:w-[8%] left-0 ornament-left">
                 <div class="image-element relative w-full h-auto">
                     <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp" alt="rebung-vertical" class="img-fluid w-full h-auto ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp">
                     <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp" alt="rebung-vertical" class="img-fluid w-full h-auto ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp">
                 </div>
             </div>
-            <div class="ornament absolute top-[-0.5rem] w-[8%] right-0 transform scale-[-1] ornament-right">
+            <div class="ornament absolute top-[-0.5rem] w-[14%] lg:w-[8%] right-0 transform scale-[-1] ornament-right">
                 <div class="image-element relative w-full h-auto">
                     <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp" alt="rebung-vertical" class="img-fluid w-full h-auto ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp">
                     <img data-src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp" alt="rebung-vertical" class="img-fluid w-full h-auto ls-is-cached lazyloaded" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctdmVydGljYWwucG5n.webp">
@@ -92,9 +92,9 @@
         </div>
         <div class="container w-full mx-auto px-[1.8rem]">
             <div class="cover-wrapper relative pt-[5rem] pb-0 transition-opacity duration-1000 ease-in-out h-screen">
-                <div class="cover-content relative w-[40%] h-full pt-[5rem] pb-[3rem] mx-auto text-white color-primary">
+                <div class="cover-content relative w-[95%] md:w-[60%] lg:w-[40%] h-full pt-[5rem] pb-[3rem] mx-auto text-white color-primary">
                     <div class="cover-content-bg absolute inset-0 bg-[var(--color-primary)] rounded-t-[300px] opacity-60 has-animate" data-anim="slide-up" data-load-animation="true"></div>
-                    <div class="cover-body relative z-50 has-animate" data-anim="zoom-out" data-anim-delay="2500" data-load-animation="true">
+                    <div class="cover-body my-auto relative z-50 has-animate" data-anim="zoom-out" data-anim-delay="2500" data-load-animation="true">
                         <div class="cover-description relative w-full p-4 text-center">
                             <div class="relative">
                                 <p>We invite you to The Wedding of</p>
@@ -114,7 +114,7 @@
         </div>
     </section>
     <div id="main-layout" class="bg-red-100 flex flex-col w-full">
-        <div class="h-screen lg:fixed lg:block lg:inset-0 lg:w-[61%]">
+        <div class="h-screen hidden lg:fixed lg:block lg:inset-0 w-full lg:w-[61%]">
             <div class="relative h-full w-full overflow-hidden">
                 <div class="absolute top-[6rem] left-[8rem] w-full text-left z-10 text-light">
                     <h1 class="font-moles text-[50px] mb-3">Felicia <br> <span>&amp;</span> <br> Alexandro</h1>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
                 <div class="lg:pl-4 lg:pr-4">
-                    <div class="relative text-center pt-16 pb-0 min-h-[110vh] flex justify-end items-center flex-col">
+                    <div class="relative text-center pt-16 pb-0 min-h-[85vh] lg:min-h-[110vh] flex justify-end items-center flex-col">
                         <div class="relative w-[80%] min-h-[calc(100vh-5rem)] text-center text-[var(--color-light)] pt-[3rem] px-[1rem] pb-[13rem] color-primary">
                             <div class=" absolute inset-0 bg-[var(--color-primary)] rounded-t-[300px] opacity-60 has-animate" data-anim="slide-up" data-load-animation="true"></div>
                             <div class="relative">
@@ -446,12 +446,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="reminder-wrap relative w-full min-h-[80vh] pt-12 bg-[var(--color-main)]">
+                <div class="reminder-wrap relative w-full min-h-[50vh] md:min-h-[60vh] lg:min-h-[80vh] pt-12 bg-[var(--color-main)]">
                     <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
                         <div class="ornaments-wrapper absolute top-0 left-0 w-full h-full pointer-events-none bg-[var(--color-main)] animation-invisible" data-anim="zoom-out">
                             <div class="elements-wrapper-absolute absolute bottom-0 left-0 w-full h-full">
                                 <div class="background-element relative w-full h-full">
-                                    <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90ZXh0dXJlLnBuZw.webp" alt="texture">
+                                    <img class="mix-blend-multiply" src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy90ZXh0dXJlLnBuZw.webp" alt="texture">
                                 </div>
                             </div>
                             <div class="sky absolute top-0 left-1/2 w-[110%] transform -translate-x-1/2">
@@ -574,10 +574,10 @@
                 <div class="mx-3 py-3">
                     <div id="default-carousel" class="relative" data-carousel="slide">
                         <!-- Carousel wrapper -->
-                        <div class="overflow-hidden relative h-[82vh]">
+                        <div class="overflow-hidden relative h-[70vh] lg:h-[82vh]">
                             <!-- Item 1 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <div class="grid grid-cols-2 gap-4">
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                                     <div class="bg-gray-200 overflow-hidden shadow-md">
                                         <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:720:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dhbGxlcnkvYTRsTUNIaWJsTzBxMEd2RTBWNHNsREdTWDVJZnUwNEFpanV2TEZrWS5wbmc.webp" alt="Gallery Image 1" class="w-full  object-cover">
                                     </div>
@@ -594,7 +594,7 @@
                             </div>
                             <!-- Item 2 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <div class="grid grid-cols-2 gap-4">
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                                     <div class="bg-gray-200 overflow-hidden shadow-md">
                                         <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:720:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dhbGxlcnkvYTRsTUNIaWJsTzBxMEd2RTBWNHNsREdTWDVJZnUwNEFpanV2TEZrWS5wbmc.webp" alt="Gallery Image 1" class="w-full  object-cover">
                                     </div>
@@ -611,7 +611,7 @@
                             </div>
                             <!-- Item 3 -->
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <div class="grid grid-cols-2 gap-4">
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                                     <div class="bg-gray-200 overflow-hidden shadow-md">
                                         <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:720:0:1/g:no/aHR0cHM6Ly92aWRpbmcuc2dwMS5kaWdpdGFsb2NlYW5zcGFjZXMuY29tL2dhbGxlcnkvYTRsTUNIaWJsTzBxMEd2RTBWNHNsREdTWDVJZnUwNEFpanV2TEZrWS5wbmc.webp" alt="Gallery Image 1" class="w-full  object-cover">
                                     </div>
@@ -647,7 +647,7 @@
                     <div class="pl-7 pr-7 relative">
                         <div class="flex justify-center">
                             <div class="h-auto w-full ratio-16x9 animation-invisible" data-anim="fade-down">
-                                <iframe class="w-full h-auto min-h-80" id="gallery_player" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="WHAT IS VIDING?" src="https://www.youtube.com/embed/SzPrFMFqFwM?enablejsapi=1&amp;origin=https%3A%2F%2Fvidingdemo.viding.co&amp;widgetid=1"></iframe>
+                                <iframe class="w-full h-auto min-h-60 lg:min-h-80" id="gallery_player" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="WHAT IS VIDING?" src="https://www.youtube.com/embed/SzPrFMFqFwM?enablejsapi=1&amp;origin=https%3A%2F%2Fvidingdemo.viding.co&amp;widgetid=1"></iframe>
                             </div>
                         </div>
                     </div>
@@ -677,7 +677,7 @@
                         <div class="container pl-[1.8rem] pr-[1.8rem] relative">
                             <div class="flex justify-center">
                                 <div class="relative">
-                                    <div class="venue-description relative text-center p-7 mb-[3rem] bg-[--color-main] rounded-2xl opacity-70">
+                                    <div class="venue-description relative text-center p-7 mb-[3rem] bg-[--color-primary] rounded-2xl opacity-70">
                                         <div class="title-section z-30 relative w-full text-center mb-[1.25rem] has-animate" data-anim="zoom-out" data-load-animation="true">
                                             <h2 class="block text-[var(--color-light)] w-full mb-0 font-medium text-[38px]">Lokasi</h2>
                                         </div>
@@ -694,7 +694,7 @@
                             <div class="container px-[1.8rem]">
                                 <div class="flex flex-col justify-center row-venue">
                                     <div class="relative w-full flex-auto">
-                                        <div class="card rounded-2xl bg-[var(--color-main)] text-[var(--color-light)] border-none text-left overflow-hidden">
+                                        <div class="card rounded-2xl bg-[var(--color-primary)] text-[var(--color-light)] border-none text-left overflow-hidden">
                                             <div class="rebung-horizontal relative -ml-[0.5rem] w-auto h-full">
                                                 <div class="image-element relative w-[160%] h-auto">
                                                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctaG9yaXpvbnRhbC5wbmc.webp" alt="rebung-horizontal">
@@ -823,7 +823,7 @@
                                         </div>
                                     </div>
                                     <div class="relative w-full flex-auto mt-6">
-                                        <div class="card rounded-2xl bg-[var(--color-main)] text-[var(--color-light)] border-none text-left overflow-hidden">
+                                        <div class="card rounded-2xl bg-[var(--color-primary)] text-[var(--color-light)] border-none text-left overflow-hidden">
                                             <div class="rebung-horizontal relative -ml-[0.5rem] w-auto h-full">
                                                 <div class="image-element relative w-[160%] h-auto">
                                                     <img src="https://media.viding.co/dmlkaW5nIGNvIGltYWdlIHByb3h5IGJ5IGZseS5pbw/rs:auto:0:0:1/g:no/aHR0cHM6Ly92aWRpbmcuY28vaW52aXRhdGlvbi90aGVtZV8xNDkvYXNzZXRzL2ltYWdlcy9yZWJ1bmctaG9yaXpvbnRhbC5wbmc.webp" alt="rebung-horizontal">
@@ -1244,7 +1244,7 @@
                                 <div class="title-section text-left text-white has-animate" data-anim="zoom-out" data-load-animation="true">
                                     <h2 class="block w-full mb-4 font-baskervville font-medium text-[38px]">E-Angpao</h2>
                                 </div>
-                                <div class="tabs-gift relative flex items-center bg-white bg-opacity-20 justify-center w-fit p-1 rounded-3xl gap-2 inherit ">
+                                <div class="tabs-gift relative flex items-center bg-white bg-opacity-20 justify-center w-fit p-0.5 lg:p-1 rounded-3xl gap-2 inherit ">
                                     <button class="btn btn-custom flex items-center text-white justify-center color__button__trans color-secondary" data-tab=".angpao">
                                         <div class="glider"></div>
                                         <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1257,7 +1257,7 @@
                                         <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.625 12.1094L11.3906 12.1094C10.8594 11.2734 10.5469 10.2813 10.5469 9.21875C10.5469 6.2461 12.9648 3.82813 15.9375 3.82813C17.5547 3.82813 19.0117 4.54688 20 5.67969C20.9883 4.54688 22.4453 3.82813 24.0625 3.82813C27.0352 3.82813 29.4531 6.24609 29.4531 9.21875C29.4531 10.2813 29.1445 11.2734 28.6094 12.1094L34.375 12.1094C35.0664 12.1094 35.625 12.668 35.625 13.3594L35.625 21.1719C35.625 21.3438 35.4844 21.4844 35.3125 21.4844L33.75 21.4844L33.75 34.9219C33.75 35.6133 33.1914 36.1719 32.5 36.1719L7.5 36.1719C6.8086 36.1719 6.25 35.6133 6.25 34.9219L6.25 21.4844L4.6875 21.4844C4.51563 21.4844 4.375 21.3438 4.375 21.1719L4.375 13.3594C4.375 12.668 4.93359 12.1094 5.625 12.1094ZM18.6719 9.21875C18.6719 7.71094 17.4453 6.48438 15.9375 6.48438C14.4297 6.48438 13.2031 7.71094 13.2031 9.21875C13.2031 10.7266 14.4297 11.9531 15.9375 11.9531L18.6719 11.9531L18.6719 9.21875ZM24.0625 6.48438C22.5547 6.48438 21.3281 7.71094 21.3281 9.21875L21.3281 11.9531L24.0625 11.9531C25.5703 11.9531 26.7969 10.7266 26.7969 9.21875C26.7969 7.71094 25.5703 6.48438 24.0625 6.48438ZM32.9688 18.8281L32.9688 14.7656L21.3281 14.7656L21.3281 18.8281L32.9688 18.8281ZM31.0938 21.4844L21.3281 21.4844L21.3281 33.5156L31.0938 33.5156L31.0938 21.4844ZM8.90625 33.5156L18.6719 33.5156L18.6719 21.4844L8.90625 21.4844L8.90625 33.5156ZM7.03125 18.8281L18.6719 18.8281L18.6719 14.7656L7.03125 14.7656L7.03125 18.8281Z" fill="#F9FDF9"></path>
                                         </svg>
-                                        Gift Registry
+                                        <span class="text-nowrap"> Gift Registry</span>
                                     </button>
                                 </div>
                                 <div class="angpao my-3 show">
@@ -1281,7 +1281,7 @@
                             <div class="angpao show">
                                 <form  id="formGift" action="https://viding.co/payment/eyJpdiI6IlRURDBEclFldDhvU0poVDc2ZlhIZ3c9PSIsInZhbHVlIjoiNy9qeFBTOG1pTktYbVF4amZZQjNHQT09IiwibWFjIjoiY2EyNjNkY2M4YTcwZmZhMGI0MTcyM2Q3ZjZiMmY5MGI3NjdiOTExYzk2ODY1MzRhMDNjNzBiMDBjNThmNTY1NCIsInRhZyI6IiJ9/method" method="post" target="_top" novalidate="novalidate">
                                     <input type="hidden" name="domain">
-                                    <div class="grid justify-center pl-10 pr-16 grid-cols-2 gap-2">
+                                    <div class="grid justify-center px-5 lg:px-10 grid-cols-1 md:grid-cols-2 gap-2">
                                         <div class="mb-3 angpao-field-hideable has-animate" data-anim="fade-down" data-load-animation="true">
                                             <input type="text" required="" value="" class="form-control" placeholder="Name" name="name">
                                         </div>
